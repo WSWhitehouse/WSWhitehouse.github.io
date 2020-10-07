@@ -12,9 +12,9 @@ author: William Whitehouse
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "aboutme"
+  About Me: "pages/aboutme"
   Projects:
-    - Unity Tools: "unitytools"
+    - Unity Tools: "pages/unitytools"
 
 # --- Logo --- #
 
