@@ -15,18 +15,18 @@ html {
   font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 400;
-  src: url('assets/fonts/ubuntu-v15-latin-regular.eot'); /* IE9 Compat Modes */
+  src: url('./fonts/ubuntu-v15-latin-regular.eot'); /* IE9 Compat Modes */
   src: local('Ubuntu Regular'), local('Ubuntu-Regular'),
-       url('assets/fonts/ubuntu-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('assets/fonts/ubuntu-v15-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('assets/fonts/ubuntu-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
-       url('assets/fonts/ubuntu-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('assets/fonts/ubuntu-v15-latin-regular.svg#Ubuntu') format('svg'); /* Legacy iOS */
+       url('./fonts/ubuntu-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/ubuntu-v15-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/ubuntu-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/ubuntu-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./fonts/ubuntu-v15-latin-regular.svg#Ubuntu') format('svg'); /* Legacy iOS */
 }
 
 
 body {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'Ubuntu', 'Times New Roman', serif;
   font-size: 1.125rem;
   color: #404040;
   position: relative;
