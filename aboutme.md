@@ -12,14 +12,12 @@ My name is William Whitehouse, I am a Games Programmer. I am currently studying 
 - Unity 3D
 
 # Github Stats
-<p class="aligncenter">
 <a href="https://github.com/anuraghazra/github-readme-stats">
   <img align="center" src="https://github-readme-stats.vercel.app/api/?username=WSWhitehouse&show_icons=true&hide_border=true&hide_title=true" />
 </a>
 <a href="https://github.com/anuraghazra/github-readme-stats">
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=WSWhitehouse&layout=compact&hide_border=true&hide_title=true" />
 </a>
-</p>
 
 <style>
 .aligncenter {
