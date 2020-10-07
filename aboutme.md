@@ -11,6 +11,12 @@ My name is William Whitehouse, I am a Games Programmer. I am currently studying 
 - C++
 - Unity 3D
 
+# Hobbies & Personal Interests
+- Playing Video Games
+- Listening to Music
+- Climbing & Bouldering
+- Linux
+
 # Github Stats
 <nomargin>
 <a href="https://github.com/WSWhitehouse">
@@ -32,13 +38,10 @@ nomargin {
 }
 </style>
 
-# Hobbies & Personal Interests
-- Playing Video Games
-- Listening to Music
-- Climbing & Bouldering
-- Linux
-
 # Social Media & Contact Info
+
+{% include social-networks-links.html %}
+
 - Email: [williamswhitehouse@gmail.com](mailto:williamswhitehouse@gmail.com)
 - [Github](https://github.com/wswhitehouse)
 - [Stack Overflow](https://stackoverflow.com/users/13195883/william-whitehouse)
