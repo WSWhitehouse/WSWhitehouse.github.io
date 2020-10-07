@@ -186,7 +186,7 @@ defaults:
       readtime: false # add estimated reading time on all blog posts
   -
     scope:
-      path: "" # all files
+      path: "/pages" # all files
     values:
       layout: "page"
       show-avatar: true
