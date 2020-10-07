@@ -17,7 +17,7 @@ My name is William Whitehouse, I am a Games Programmer. I am currently studying 
   <img align="center" src="https://github-readme-stats.vercel.app/api/?username=WSWhitehouse&show_icons=true&hide_border=true&hide_title=true" />
 </a>
 <a href="https://github.com/WSWhitehouse">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=WSWhitehouse&layout=compact&hide_border=true&hide_title=true&card_width=300" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=WSWhitehouse&layout=compact&hide_border=true&hide_title=true&card_width=450" />
 </a>
 </nomargin>
 
