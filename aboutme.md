@@ -29,7 +29,7 @@ My name is William Whitehouse, I am a Games Programmer. I am currently studying 
 </a>
 </nomargin>
 
-Made using [Anuraghazra's Github Readme Stats](https://github.com/anuraghazra/github-readme-stats)!
+GitHub Stats made using [Anuraghazra's GitHub Readme Stats](https://github.com/anuraghazra/github-readme-stats)!
 
 <style>
 nomargin {
