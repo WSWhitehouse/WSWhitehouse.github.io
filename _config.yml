@@ -40,7 +40,7 @@ social-network-links:
 #  facebook: deanattali
   github: wswhitehouse
   twitter: WS_Whitehouse
-  rss: true
+  rss: false
 #  reddit: yourname
 #  linkedin: daattali
 #  xing: yourname
