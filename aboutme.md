@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About Me
-subtitle: Contact Information & My Skills
+subtitle: My Skills & Contact Information
 ---
 
 My name is William Whitehouse, I am a Games Programmer. I am currently studying [Games Technology](https://courses.uwe.ac.uk/G611) at [UWE](https://www.uwe.ac.uk/).
@@ -28,8 +28,15 @@ My name is William Whitehouse, I am a Games Programmer. I am currently studying 
 }
 </style>
 
+# Hobbies & Personal Interests
+- Playing Video Games
+- Listening to Music
+- Climbing & Bouldering
+- Linux
+
 # Contact Information
-- Email: williamswhitehouse@gmail.com
+- Email: [williamswhitehouse@gmail.com](mailto:williamswhitehouse@gmail.com)
 - [Github](https://github.com/wswhitehouse)
 - [Stack Overflow](https://stackoverflow.com/users/13195883/william-whitehouse)
 - [Twitter](https://twitter.com/WS_Whitehouse)
+- [YouTube](https://www.youtube.com/channel/UCG-A-r8ysz2kt5HGu4i3qIw)
