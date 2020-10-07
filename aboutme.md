@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About Me
-subtitle: My Skills & Contact Information
+subtitle: My Skills & Interests
 ---
 
 My name is William Whitehouse, I am a Games Programmer. I am currently studying [Games Technology](https://courses.uwe.ac.uk/G611) at [UWE](https://www.uwe.ac.uk/).
@@ -14,14 +14,14 @@ My name is William Whitehouse, I am a Games Programmer. I am currently studying 
 # Github Stats
 <nomargin>
 <a href="https://github.com/WSWhitehouse">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/?username=WSWhitehouse&show_icons=true&hide_border=true&hide_title=true&hide_rank=true" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/?username=WSWhitehouse&show_icons=true&hide_border=true&hide_title=true" />
 </a>
 <a href="https://github.com/WSWhitehouse">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=WSWhitehouse&layout=compact&hide_border=true&hide_title=true" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=WSWhitehouse&layout=compact&hide_border=true&hide_title=true&card_width=300" />
 </a>
 </nomargin>
 
-Made using [anuraghazra's Github Readme Stats](https://github.com/anuraghazra/github-readme-stats)!
+Made using [Anuraghazra's Github Readme Stats](https://github.com/anuraghazra/github-readme-stats)!
 
 <style>
 nomargin {
@@ -38,7 +38,7 @@ nomargin {
 - Climbing & Bouldering
 - Linux
 
-# Contact Information
+# Social Media & Contact Info
 - Email: [williamswhitehouse@gmail.com](mailto:williamswhitehouse@gmail.com)
 - [Github](https://github.com/wswhitehouse)
 - [Stack Overflow](https://stackoverflow.com/users/13195883/william-whitehouse)
