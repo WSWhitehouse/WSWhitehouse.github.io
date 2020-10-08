@@ -8,8 +8,8 @@ subtitle: Projects I'm Working On At University
 
 ## Pong & Breakout - C++
 
-## Angry Birds Clone - C++
+## Space Invaders - C++
 
-## Stack Game - Unity / C#
+## Angry Birds - C++
 
-## 3rd Person Game Demo - Unity / C#
+## 3d Modelling Work & 3rd Person Game Demo - Maya / Unity / C#
