@@ -13,6 +13,8 @@ author: William Whitehouse
 
 navbar-links:
   About Me: "aboutme"
+  Portfolio:
+    - University Work: "portfolio-uni-work"
   Projects:
     - Unity Tools: "unitytools"
 
