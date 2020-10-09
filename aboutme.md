@@ -21,12 +21,8 @@ My name is William Whitehouse, I am a Games Programmer. I am currently studying 
 
 # Github Stats
 <nomargin>
-<a href="https://github.com/WSWhitehouse">
   <img align="center" src="https://github-readme-stats.vercel.app/api/?username=WSWhitehouse&show_icons=true&hide_border=true&hide_title=true" />
-</a>
-<a href="https://github.com/WSWhitehouse">
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=WSWhitehouse&layout=compact&hide_border=true&hide_title=true&card_width=410" />
-</a>
 </nomargin>
 
 GitHub Stats made using [Anuraghazra's GitHub Readme Stats](https://github.com/anuraghazra/github-readme-stats)!
