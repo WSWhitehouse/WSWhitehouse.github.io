@@ -7,16 +7,6 @@ subtitle: Projects I'm Working On At University
 # Year One
 
 ## Pong - C++
-<ul id="light-slider">
-    <li>
-        <h3>First Slide</h3>
-        <p>Lorem ipsum Cupidatat quis pariatur anim.</p>
-    </li>
-    <li>
-        <h3>Second Slide</h3>
-        <p>Lorem ipsum Excepteur amet adipisicing fugiat velit nisi.</p>
-    </li>
-</ul>
 
 <script type="text/javascript">
     $(document).ready(function() {
@@ -24,7 +14,17 @@ subtitle: Projects I'm Working On At University
     });
 </script>
 
-{% include image-gallery.html folder="/assets/img/portfolio" %}
+<ul id="light-slider">
+    <li>
+        <img src="/assets/img/portfolio/image1.jpg"/>
+    </li>
+    <li>
+        <img src="/assets/img/portfolio/image2.jpg"/>
+    </li>
+    <li>
+        <img src="/assets/img/portfolio/image3.jpg"/>
+    </li>
+</ul>
 
 ## Space Invaders - C++
 
