@@ -8,7 +8,9 @@ subtitle: Projects I'm Working On At University
 
 ## Pong - C++
 
+<p align="center">
 {% include image-gallery.html folder="/assets/img/portfolio/uni/pong" %}
+</p>
 
 Pong was the first C++ game that I developed at university. It used a simple framework called [Awesome Sauce Game Engine](https://huxyuk.github.io/AwesomeSauceGE/) or ASGE for short. This framework was developed by a lecturer at my university and is specifically designed and targeted at students.
 
