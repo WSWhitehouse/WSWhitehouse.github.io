@@ -7,7 +7,11 @@ subtitle: Projects I'm Working On At University
 # Year One
 
 <details>
-<summary>Pong - C++</summary>
+<summary>
+
+## Pong - C++
+
+</summary>
 <br>
 
 {% include image-gallery.html folder="/assets/img/portfolio" %}
@@ -22,7 +26,9 @@ Aliquam interdum rhoncus porta. Suspendisse et nulla in purus congue euismod qui
 
 </details>
 
-## Pong - C++
+<br>
+
+## Space Invaders - C++
 
 {% include image-gallery.html folder="/assets/img/portfolio" %}
 
@@ -33,8 +39,6 @@ Aliquam interdum rhoncus porta. Suspendisse et nulla in purus congue euismod qui
 <p align="center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_7X6Yeydgyg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
-
-## Space Invaders - C++
 
 ## Angry Birds - C++
 
