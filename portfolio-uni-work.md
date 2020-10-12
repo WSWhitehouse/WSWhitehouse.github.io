@@ -9,7 +9,7 @@ subtitle: Projects I'm Working On At University
 <details>
 <summary>
 
-## Pong - C++
+<h2> Pong - C++ <h2/>
 
 </summary>
 <br>
