@@ -16,9 +16,9 @@ The Pong game is a simple clone of the original game which released in 1972. It 
 
 <p align="center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OYHiY6YE8W8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</p>
 
 <iframe src="https://itch.io/embed/786931" height="167" width="560" frameborder="0"><a href="https://wswhitehouse.itch.io/pong-cpp">Pong - C++ by WSWhitehouse</a></iframe>
+</p>
 
 ## Space Invaders - C++
 
