@@ -10,36 +10,13 @@ subtitle: Projects I'm Working On At University
 
 {% include image-gallery.html folder="/assets/img/portfolio" %}
 
-<style>
-.row {
-  display: flex;
-}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus hendrerit enim ac arcu ullamcorper dignissim. Sed iaculis cursus metus a tempus. Vestibulum egestas ultricies turpis, non lobortis libero lacinia non. Nam nec magna purus. Donec aliquet tempus elementum. Nunc sit amet bibendum arcu. Duis pretium imperdiet ipsum non tincidunt. Suspendisse dapibus enim pretium velit molestie commodo. Sed a mi convallis, gravida ipsum non, auctor urna. Integer eget congue turpis.
 
-.column {
-  flex: 50%;
-  padding: 10px;
-}
-</style>
-<div class="row">
-  <div class="column">
-    <p>
+Aliquam interdum rhoncus porta. Suspendisse et nulla in purus congue euismod quis sit amet purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat. Fusce at dignissim leo, eu dignissim odio. Sed sed ipsum rhoncus, accumsan nisl eget, congue ex. Sed at nunc nec justo condimentum ultricies. Duis viverra ligula arcu, in vulputate erat ornare nec. Nam porta interdum orci, sed aliquet dui convallis et. Donec a leo vel arcu pulvinar posuere quis sit amet dui. Cras fringilla nunc at leo venenatis, id egestas tortor rutrum. Quisque ornare nisl a felis volutpat, non imperdiet ligula sagittis.
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus hendrerit enim ac arcu ullamcorper dignissim. Sed iaculis cursus metus a tempus. Vestibulum egestas ultricies turpis, non lobortis libero lacinia non. Nam nec magna purus. Donec aliquet tempus elementum. Nunc sit amet bibendum arcu. Duis pretium imperdiet ipsum non tincidunt. Suspendisse dapibus enim pretium velit molestie commodo. Sed a mi convallis, gravida ipsum non, auctor urna. Integer eget congue turpis.
-
-    Aliquam interdum rhoncus porta. Suspendisse et nulla in purus congue euismod quis sit amet purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat. Fusce at dignissim leo, eu dignissim odio. Sed sed ipsum rhoncus, accumsan nisl eget, congue ex. Sed at nunc nec justo condimentum ultricies. Duis viverra ligula arcu, in vulputate erat ornare nec. Nam porta interdum orci, sed aliquet dui convallis et. Donec a leo vel arcu pulvinar posuere quis sit amet dui. Cras fringilla nunc at leo venenatis, id egestas tortor rutrum. Quisque ornare nisl a felis volutpat, non imperdiet ligula sagittis.
-
-    </p>
-  </div>
-  <div class="column" >
-
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/_7X6Yeydgyg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-  </div>
-</div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_7X6Yeydgyg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Space Invaders - C++
-
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/_7X6Yeydgyg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Angry Birds - C++
 
