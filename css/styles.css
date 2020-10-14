@@ -44,7 +44,7 @@
 .title-text{
 	text-align: center !important;
 	font-size: 250%;
-	transition: transform .25s ease;
+	transition: 300ms ease;
 }
 .title-text:hover{
 	text-align: center !important;
@@ -62,7 +62,13 @@
 
 .navbar-brand-table{
 	border-collapse: collapse;
+	transition: 300ms ease;
 }
+
+.navbar-brand-table:hover{
+	transform: scale(105%);
+}
+
 
 .navbar-brand-bracket{
 	font-size: 500%;
