@@ -53,6 +53,7 @@
 
 .navbar-brand{
 	font-family: inconsolata;
+	text-shadow: 2.5px 2.5px 2.5px #4c4c4c;
 	font-size: 130%;
 	font-weight: bold;
 	padding-left: 10%;
