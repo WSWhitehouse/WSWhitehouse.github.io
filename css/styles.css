@@ -5,11 +5,9 @@ html {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
-
 body {
   margin: 0;
   font-size: 1rem;
@@ -19,139 +17,118 @@ body {
   text-align: left;
   background-color: #fff;
 }
-
 /* -- Fonts -- */
 @font-face {
   font-family: ubuntu;
   src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf");
 }
-
 @font-face {
   font-family: ubuntu;
   src: url("../fonts/Ubuntu/Ubuntu-Bold.ttf");
   font-weight: bold;
 }
-
 @font-face {
   font-family: inconsolata;
   src: url("../fonts/Inconsolata/Inconsolata-VariableFont_wdth,wght.ttf");
 }
-
 /* -- Text -- */
 .text-monospace {
   font-family: inconsolata, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
 }
-
 .text-justify {
   text-align: justify !important;
 }
-
 .text-wrap {
   white-space: normal !important;
 }
-
 .text-nowrap {
   white-space: nowrap !important;
 }
-
 .text-truncate {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-
 .text-left {
   text-align: left !important;
 }
-
 .text-right {
   text-align: right !important;
 }
-
 .text-center {
   text-align: center !important;
 }
-
 /* -- Header -- */
-.navbar-brand{
-	font-size: 130%;
-	font-weight: bold;
+.navbar-brand {
+  font-size: 130%;
+  font-weight: bold;
 }
-
-.navbar-brand-table{
-	border-collapse: collapse;
-	transition: 300ms ease;
+.navbar-brand-table {
+  border-collapse: collapse;
+  transition: 300ms ease;
 }
-
-.navbar-brand-table:hover{
-	transform: scale(105%);
+.navbar-brand-table:hover {
+  transform: scale(105%);
 }
-
-.navbar-brand-bracket{
-	font-size: 500%;
-	font-weight: normal;
-	padding-bottom: 0%;
-	padding-top: 0%;
-	line-height: 85%;
+.navbar-brand-bracket {
+  font-size: 500%;
+  font-weight: normal;
+  padding-bottom: 0%;
+  padding-top: 0%;
+  line-height: 85%;
 }
-
-.nav-link, .dropdown-item{
-	font-size: 110%;
-	transition: .5ms;
+.nav-link, .dropdown-item {
+  font-size: 110%;
+  transition: .5ms;
 }
-.nav-link:hover, .dropdown-item:hover{
-	font-weight: bolder;
-	font-size: 105%;
+.nav-link:hover, .dropdown-item:hover {
+  font-weight: bolder;
+  font-size: 105%;
 }
-
 /* -- Footer -- */
-.social-icons{
-	padding: none;
+.social-icons {
+  padding: none;
 }
-.social-icons img{
-	padding: 1%;
-	transition: 0.5s;
+.social-icons img {
+  padding: 1%;
+  transition: 0.5s;
 }
-.social-icons img:hover{
-	padding: 0.25%;
+.social-icons img:hover {
+  padding: 0.25%;
 }
-
 /* -- Body & Content -- */
-
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
-}
 .column {
   float: left;
   width: 50%;
-  padding: 10px;
+  padding: 3%;
 }
-
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
-
 @media screen and (max-width: 1000px) {
   .column {
     width: 100%;
   }
 }
-
 .title-text-small {
-	text-align: center !important;
-	font-size: 150%;
+  text-align: center !important;
+  font-size: 150%;
+}
+.title-text {
+  text-align: center !important;
+  font-size: 250%;
+}
+button {
+  transition: 500ms ease-in-out;
+}
+button:hover {
+  transform: scale(103%);
 }
 
-.title-text{
-	text-align: center !important;
-	font-size: 250%;
-	transition: 300ms ease;
-}
-.title-text:hover{
-	text-align: center !important;
-	font-size: 275%;
+.container-main {
+  margin: 0;
+  padding: 2rem;
+  font: 1.3rem inconsolata, monospace;
 }

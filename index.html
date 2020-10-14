@@ -14,6 +14,7 @@
 	<script src="js/jquery-3.4.1.min.js"></script>
 	<script src="js/popper.min.js"></script>
     <script src="js/bootstrap-4.4.1.js"></script>
+	  <script src="js/auto-typer.js"></script>
   </head>
 	
   <body>
@@ -28,28 +29,42 @@
 	  <!-- Page Content -->
 	  <div class="container">
 	  <div class="row">
-			<div class="column" style="background-color:#aaa;">
-				<div class="text-center"><img src="images/400x400.gif" alt="Me!"></div>
-	
-			</div>
-  
-			<div class="column" style="background-color:#bbb;">
-				<div class="title-text-small">Hi, I'm</div>
-				<div class="title-text">William Whitehouse</div>
-				<div>
-				I am currently a undergraduate student at the <a href="https://www.uwe.ac.uk/">University of the West of England (UWE)</a> in Bristol. I'm in my second year studying <a href="https://courses.uwe.ac.uk/G611/games-technology">Games Technology (BSc)</a>. 
-				</div>
+		  
+		  <!-- Column 1 - Image -->
+		  <div class="column" style="background-color:#aaa;">
+			  <div class="text-center">	
+				  <img src="images/400x400.gif" alt="Me!" class="img-fluid">	
+			  </div>
+		  </div>
+		  
+		  <!-- Column 2 - About Me -->
+		  <div class="column" style="background-color:#bbb;">
+			  <div class="container-main">	
+					
+				  <div class="title-text-small">Hi, I'm</div>
+				  <div class="title-text">William Whitehouse</div>
 				
-				<div class="text-center">	
-					<div class="text-monospace">
-						<a href="./uni-portfolio.html"><button class="btn btn-outline-success my-2 my-sm-0" type="submit">View Portfolio --></button>
-						</a>
-					</div>
-				</div>
-			</div>
+				  <!-- Auto Typer -->
+				  <div class="title-text-small"><auto-typer>Games Programmer.</auto-typer></div>
+				
+				  <br>
+					
+				  I am currently an undergraduate student at the <a href="https://www.uwe.ac.uk/">University of the West of England (UWE)</a> in Bristol. I'm in my second year studying <a href="https://courses.uwe.ac.uk/G611/games-technology">Games Technology (BSc)</a>. 
+				
+				  <br><br>
+				
+				  <!-- View Portfolio Button -->
+				  <div class="text-center">	
+					  <div class="text-monospace">
+						  <a href="./uni-portfolio.html"><button class="btn btn-info my-2 my-sm-0" type="submit">View Portfolio --&gt;</button></a>
+					  </div>
+				  </div>	
+				
+			  </div>
+		  </div>
 	  </div> 
 	  </div>
-	  
+	  	  
 	  <!-- Footer -->
 	  <div id="footer-html"></div>
 	  <script>
