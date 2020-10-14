@@ -1,0 +1,82 @@
+.attribution {
+  font-size: 75%;
+  font-weight: 500;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 1000px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.social-icons{
+	padding: none;
+}
+.social-icons img{
+	padding: 1%;
+	transition: 0.5s;
+}
+.social-icons img:hover{
+	padding: 0.25%;
+}
+
+.title-text-small {
+  text-align: center !important;
+	font-size: 150%;
+}
+
+.title-text{
+	text-align: center !important;
+	font-size: 250%;
+	transition: transform .25s ease;
+}
+.title-text:hover{
+	text-align: center !important;
+	font-size: 275%;
+}
+
+.navbar-brand{
+	font-family: inconsolata;
+	font-size: 130%;
+	font-weight: bold;
+	padding-left: 10%;
+	padding-bottom: 0%;
+	padding-top: 0%;
+}
+
+.navbar-brand-table{
+	border-collapse: collapse;
+}
+
+.navbar-brand-bracket{
+	font-size: 500%;
+	font-weight: normal;
+	padding-bottom: 0%;
+	padding-top: 0%;
+	line-height: 85%;
+}
+
+.nav-link, .dropdown-item{
+	font-size: 110%;
+	transition: .5ms;
+}
+.nav-link:hover, .dropdown-item:hover{
+	font-weight: bolder;
+	font-size: 105%;
+}
