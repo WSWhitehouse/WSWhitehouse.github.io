@@ -1,190 +1,62 @@
-/* -- Main -- */
-html {
-  font-family: ubuntu, Arial, sans-serif, Verdana;
-  line-height: 1.15;
-  -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+/* --------------------- Styles.css --------------------- */
+/* CSS file with changes & additions to the Bulma library */
+.main-content {
+  margin-top: 125px;
 }
-article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
-  display: block;
-}
-body {
-  margin: 0;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #212529;
-  text-align: left;
-  background-color: #fff;
-}
-/* -- Fonts -- */
-@font-face {
-  font-family: ubuntu;
-  src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf");
-}
-@font-face {
-  font-family: ubuntu;
-  src: url("../fonts/Ubuntu/Ubuntu-Bold.ttf");
-  font-weight: bold;
-}
-@font-face {
-  font-family: inconsolata;
-  src: url("../fonts/Inconsolata/Inconsolata-VariableFont_wdth,wght.ttf");
-}
-/* -- Text -- */
-.text-monospace {
-  font-family: inconsolata, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
-}
-.text-justify {
-  text-align: justify !important;
-}
-.text-wrap {
-  white-space: normal !important;
-}
-.text-nowrap {
-  white-space: nowrap !important;
-}
-.text-truncate {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-.text-left {
-  text-align: left !important;
-}
-.text-right {
-  text-align: right !important;
-}
-.text-center {
-  text-align: center !important;
-}
-/* -- Header -- */
-/* - Navbar - */
-.navbar {
-  position: relative;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -ms-flex-align: center;
-  align-items: center;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  padding: 0.5rem 1rem;
-}
-/* - Navbar Title - */
-.navbar-title {
-  display: inline-block;
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
-  margin-right: 1rem;
-  font-size: 1.25rem;
-  line-height: inherit;
-  white-space: nowrap;
-  text-decoration: none;
-  font-weight: bold;
-  color: white;
+.navbar-brand-hover {
+  margin: 5px;
   transition: 300ms ease;
 }
-.navbar-title:hover, .navbar-title:focus {
+.navbar-brand-hover:hover, .navbar-brand-hover:focus {
   text-decoration: none;
-  color: white;
   transform: scale(105%);
 }
-.navbar-title-table {
+.navbar-brand-text {
+  margin-top: 13px;
+}
+.navbar-brand-table {
   border-collapse: collapse;
 }
-.navbar-title-bracket {
+.navbar-brand-bracket {
   font-size: 500%;
   font-weight: normal;
   padding-bottom: 0%;
   padding-top: 0%;
   line-height: 85%;
 }
-/* - Navbar Burger Menu - */
-.navbar-collapse {
-  -ms-flex-preferred-size: 100%;
-  flex-basis: 100%;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  -ms-flex-align: center;
-  align-items: center;
+.navbar-burger {
+  margin-top: 13px;
+  margin-right: 13px;
+  transition: 300ms ease;
 }
-
-.navbar-toggler {
-  padding: 0.25rem 0.75rem;
-  font-size: 1.25rem;
-  line-height: 1;
-  background-color: transparent;
-  border: 1px solid transparent;
-  border-radius: 0.25rem;
+.navbar-burger:hover, .navbar-burger:focus {
+  transform: scale(105%);
 }
-
-.navbar-toggler:hover, .navbar-toggler:focus {
-  text-decoration: none;
+.button {
+  transition: 300ms ease;
 }
-
-.navbar-toggler-icon {
-  display: inline-block;
-  width: 1.5em;
-  height: 1.5em;
-  vertical-align: middle;
-  content: "";
-  background: no-repeat center center;
-  background-size: 100% 100%;
+.button:hover, .button:focus {
+  transform: scale(105%);
 }
-/* - Navbar Links - */
-.nav-link, .dropdown-item {
-  font-size: 110%;
-  transition: .5ms;
-}
-.nav-link:hover, .dropdown-item:hover {
-  font-weight: bolder;
-  font-size: 105%;
-}
-/* -- Footer -- */
 .social-icons {
-  padding: none;
+  width: auto;
+  height: auto;
+  max-width: 50px;
+  max-height: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
-.social-icons img {
-  padding: 1%;
-  transition: 0.5s;
+.card {
+  transition: 300ms ease;
 }
-.social-icons img:hover {
-  padding: 0.25%;
+.card:hover, .card:focus {
+  transform: scale(105%);
 }
-/* -- Body & Content -- */
-.column {
-  float: left;
-  width: 50%;
-  padding: 3%;
+.object-hover{
+	transition: 300ms ease;
 }
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-@media screen and (max-width: 1000px) {
-  .column {
-    width: 100%;
-  }
-}
-.title-text-small {
-  text-align: center !important;
-  font-size: 150%;
-}
-.title-text {
-  text-align: center !important;
-  font-size: 250%;
-}
-button {
-  transition: 500ms ease-in-out;
-}
-button:hover {
-  transform: scale(103%);
-}
-.container-main {
-  margin: 0;
-  padding: 2rem;
-  font: 1.3rem inconsolata, monospace;
+.object-hover:hover, .object-hover:focus {
+  transform: scale(105%);
 }

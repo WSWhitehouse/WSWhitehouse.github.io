@@ -7,14 +7,13 @@
     <title>William Whitehouse</title>
 	  
 	<!-- CSS -->
-    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
-	<link href="css/styles.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/bulma.css">
+	<link rel="stylesheet" href="css/styles.css">
 	  
 	<!-- Scripts -->
 	<script src="js/jquery-3.4.1.min.js"></script>
-	<script src="js/popper.min.js"></script>
-    <script src="js/bootstrap-4.4.1.js"></script>
-	  <script src="js/auto-typer.js"></script>
+	<script src="js/auto-typer.js"></script>
+	<script src="https://kit.fontawesome.com/b1f18ca109.js" crossorigin="anonymous"></script>
   </head>
 	
   <body>
@@ -25,45 +24,93 @@
 			  $("#header-html").load("./header.html");
 		  });
 	  </script>
+	  <div class="main-content">
 	  
 	  <!-- Page Content -->
+	  <section class="hero is-white has-text-centered">
 	  <div class="container">
-	  <div class="row">
+          <div class="columns is-centered">
+            <div class="column">
+              <h1 class="title is-spaced is-size-1-desktop is-size-2-tablet is-size-3-mobile">Games Designer &amp; Programmer</h1>
+              <i class="avatar fas fa-code"style="width:auto;height:auto;max-width:150px;max-height:150px;"></i>
+            </div>
+          </div>
+        </div>
+	  </section>
+	  
+	  <section class="section">
+	  <div class="container">
+	  <div class="columns">
 		  
 		  <!-- Column 1 - Image -->
-		  <div class="column" style="background-color:#aaa;">
-			  <div class="text-center">	
-				  <img src="images/400x400.gif" alt="Me!" class="img-fluid">	
+		  <div class="column">
+			  <div class="has-text-centered">	
+				  <img src="images/400x400.gif" alt="Me!">	
 			  </div>
 		  </div>
 		  
 		  <!-- Column 2 - About Me -->
-		  <div class="column" style="background-color:#bbb;">
-			  <div class="container-main">	
+		  <div class="column">
+			  <div class="card">
+			  <div class="card-content">	
 					
-				  <div class="title-text-small">Hi, I'm</div>
-				  <div class="title-text">William Whitehouse</div>
+				  <div class="subtitle has-text-centered">Hi, I'm</div>
+				  <div class="title has-text-centered is-size-2">William Whitehouse</div>
 				
 				  <!-- Auto Typer -->
-				  <div class="title-text-small"><auto-typer>Games Programmer.</auto-typer></div>
-				
-				  <br>
-					
-				  I am currently an undergraduate student at the <a href="https://www.uwe.ac.uk/">University of the West of England (UWE)</a> in Bristol. I'm in my second year studying <a href="https://courses.uwe.ac.uk/G611/games-technology">Games Technology (BSc)</a>. 
-				
-				  <br><br>
+				  <div class="subtitle has-text-centered is-size-4"><auto-typer>Games Programmer.</auto-typer></div>
+			
+				  <hr>
+				 
+				  I am currently an undergraduate student at the <a href="https://www.uwe.ac.uk/">University of the West of England (UWE)</a> in Bristol. I'm in my second year studying <a href="https://courses.uwe.ac.uk/G611/games-technology">Games Technology (BSc)</a>.
+				  
+				  <hr>
 				
 				  <!-- View Portfolio Button -->
-				  <div class="text-center">	
-					  <div class="text-monospace">
-						  <a href="./uni-portfolio.html"><button class="btn btn-info my-2 my-sm-0" type="submit">View Portfolio --&gt;</button></a>
-					  </div>
-				  </div>	
-				
+				  <div class="has-text-centered">
+				  <a href="./portfolio.html"><button class="button is-primary is-family-monospace">View Portfolio</button></a>
+				  </div>
+				  
+				  <hr>
+				  
+				  <!-- About Me Scroll -->
+				  <div class="has-text-centered is-size-5">
+				  	  <p>Scroll down to see my skills and what I'm working on!</p>
+					  <br>
+					  <i class="fas fa-chevron-down object-hover" style="width:auto;height:auto;max-width:50px;max-height:50px;"></i>
+				  </div>
+			  </div>
 			  </div>
 		  </div>
 	  </div> 
 	  </div>
+		  
+	</section>
+	<section class="section">
+		  <div class="content container">
+            <div class="columns is-centered has-text-centered">
+				<p class="px-4">
+              <div class="column card">
+				  <div class="card-image">
+                <figure class="image"><i class="fas fa-file-signature" style="width:auto;height:auto;max-width:150px;max-height:150px;"></i></figure></div>
+				  <div class="card-content">
+                <h1 class="title is-size-3 is-spaced">Designer</h1>
+                <p>I like to design and prototype games in differnet engines, as well as useful tools and plugins to help with game development. </p>
+              </div>             
+				</div>
+				</p>
+			  
+			  <p class="px-4">
+              <div class="column card">
+                <figure class="image"><i class="fas fa-file-code" style="width:auto;height:auto;max-width:150px;max-height:150px;"></i></figure>
+                <h1 class="title is-size-3 is-spaced">Programmer</h1>
+                <p>I like to code things from scratch, and enjoy bringing ideas to life using clean design patterns and coding practices.</p>
+              </div>
+			  </p>
+            </div>
+          </div>
+	</section>
+	</div>	  
 	  	  
 	  <!-- Footer -->
 	  <div id="footer-html"></div>
@@ -71,6 +118,6 @@
 		  $(function(){
 			  $("#footer-html").load("./footer.html");
 		  });
-	  </script>
+	  </script>	  
   </body>
 </html>

@@ -4,53 +4,65 @@
 <meta charset="utf-8">
 	
 <!-- CSS -->
-<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
-<link href="css/styles.css" rel="stylesheet">
+<link href="css/bulma.css" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<script src="https://kit.fontawesome.com/b1f18ca109.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-	<footer>
-	<div class="text-center">
-		<hr>
+	<br>
+<footer class="footer">
+	<div class="container has-text-centered">
+		
 		
 		<!-- Social Media Links-->
 		<div class="container">
+		
 			
 			<!-- Email -->
-			<a href="mailto:williamswhitehouse@gmail.com" class="social-icons" target="_blank" rel="noopener noreferrer"><img src="images/social-media/email.svg" alt="Email Me" title="Email Me" style="width:75px;height:75px;"></a>
+			<a href="mailto:williamswhitehouse@gmail.com" class="social-icons" target="_blank" rel="noopener noreferrer"><i class="fas fa-envelope object-hover" style="width:auto;height:auto;max-width:50px;max-height:50px;"></i></a>
 				
 			<!-- GitHub -->
-			<a href="https://github.com/WSWhitehouse" class="social-icons" target="_blank" rel="noopener noreferrer"><img src="images/social-media/github.svg" alt="GitHub" title="GitHub" style="width:75px;height:75px;"></a>
+			<a href="https://github.com/WSWhitehouse" class="social-icons" target="_blank" rel="noopener noreferrer"><i class="fab fa-github object-hover" style="width:auto;height:auto;max-width:50px;max-height:50px;"></i></a>
 				
 			<!-- Twitter -->
-			<a href="https://twitter.com/WS_Whitehouse" class="social-icons" target="_blank" rel="noopener noreferrer"><img src="images/social-media/twitter.svg" alt="Twitter" title="Twitter" style="width:75px;height:75px;"></a>
+			<a href="https://twitter.com/WS_Whitehouse" class="social-icons" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter object-hover" style="width:auto;height:auto;max-width:50px;max-height:50px;"></i></a>
 					
 			<!-- Stack Overflow -->
-			<a href="https://stackoverflow.com/users/13195883/william-whitehouse" class="social-icons" target="_blank" rel="noopener noreferrer"><img src="images/social-media/stackoverflow.svg" alt="StackOverflow" title="Stack Overflow" style="width:75px;height:75px;"></a>
+			<a href="https://stackoverflow.com/users/13195883/william-whitehouse" class="social-icons" target="_blank" rel="noopener noreferrer"><i class="fab fa-stack-overflow object-hover" style="width:auto;height:auto;max-width:50px;max-height:50px;"></i></a>
 					
 			<!-- YouTube -->
-			<a href="https://www.youtube.com/channel/UCG-A-r8ysz2kt5HGu4i3qIw" class="social-icons" target="_blank" rel="noopener noreferrer"><img src="images/social-media/youtube.svg" alt="YouTube" title="YouTube" style="width:75px;height:75px;"></a>
+			<a href="https://www.youtube.com/channel/UCG-A-r8ysz2kt5HGu4i3qIw" class="social-icons" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube object-hover" style="width:auto;height:auto;max-width:50px;max-height:50px;"></i></a>
 					
 			<!-- Reddit -->
-			<a href="https://www.reddit.com/user/WSWhitehouse" class="social-icons" target="_blank" rel="noopener noreferrer"><img src="images/social-media/reddit.svg" alt="Reddit" title="Reddit" style="width:75px;height:75px;"></a>
-					
-			<!-- Twitch -->
-			<!--<a href="https://www.twitch.tv/wswhitehouse" class="social-icons" target="_blank" rel="noopener noreferrer"><img src="images/social-media/twitch.svg" alt="Twitch" title="Twitch" style="width:75px;height:75px;"></a> -->
+			<a href="https://www.reddit.com/user/WSWhitehouse" class="social-icons" target="_blank" rel="noopener noreferrer"><i class="fab fa-reddit object-hover" style="width:auto;height:auto;max-width:50px;max-height:50px;"></i></a>
 					
 			<!-- Steam -->
-			<a href="https://steamcommunity.com/id/Hidden-Squid" class="social-icons" target="_blank" rel="noopener noreferrer"><img src="images/social-media/steam.svg" alt="Steam" title="Steam" style="width:75px;height:75px;"></a>
-					
-			<!-- Spotify -->
-			<!--<a href="https://open.spotify.com/user/doctorwolfy121" class="social-icons" target="_blank" rel="noopener noreferrer"><img src="images/social-media/spotify.svg" alt="Spotify" title="Spotify" style="width:75px;height:75px;"></a>	-->
-				
+			<a href="https://steamcommunity.com/id/Hidden-Squid" class="social-icons" target="_blank" rel="noopener noreferrer"><i class="fab fa-steam object-hover" style="width:auto;height:auto;max-width:50px;max-height:50px;"></i></a>
+
       	</div>
+		<br>
 		
 		<!-- Copyright -->
-      	<div>
-			<p>Copyright &copy; William Whitehouse. All rights reserved.</p>		
+      	<div class="is-family-monospace">
+			<p>Handcrafted by me, with help from <img src="images/tea.svg" alt="tea" title="tea" style="height:auto;width:auto;max-height:20px;max-width:20px;"></p>
+			<p>Copyright &copy; <span id="year"></span> William Whitehouse. All rights reserved.</p>
+			<script>
+				document.getElementById("year").innerHTML = new Date().getFullYear();
+			</script>
       	</div>
+		<br>
 		
+		<!-- Attributions -->
+		<div class="is-family-monospace has-text-grey-light">
+		<a href="https://bulma.io" target="_blank" rel="noopener noreferrer">		
+			<img src="https://bulma.io/images/made-with-bulma--semiblack.png" alt="Made with Bulma" width="128" height="24">				
+		</a><br>
+		<a href="https://fontawesome.com/" target="_blank" rel="noopener noreferrer" class="has-text-grey is-size-7">Icons from Font Awesome!</a>
+</div>
 	</div>
-		</footer>
+</footer>
 </body>
 </html>
+
+

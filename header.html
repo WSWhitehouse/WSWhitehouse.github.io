@@ -2,84 +2,53 @@
 <html>
 <head>
 <meta charset="utf-8">
+
+	<!-- CSS -->
+	<link href="css/bulma.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/styles.css">
 	
-<!-- CSS -->
-<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
-<link href="css/styles.css" rel="stylesheet">
+	<!-- Scripts -->
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/burger-menu.js"></script>
+	<script src="https://kit.fontawesome.com/b1f18ca109.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-	<header>
-			
-		<script>
-			function mouseOver(id, text) {
-				document.getElementById(id).innerHTML = "{ " + text + " }";
-			}
-
-			function mouseOut(id, text) {
-				document.getElementById(id).innerHTML = text;
-			}
-		</script>
-		
-		<!-- Nav Bar -->
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-			  
-		<!-- Nav Bar Brand -->	
-		<a class="navbar-title text-monospace" href="./index.html">
-				<table class="navbar-title-table">
-					<tr>
-						<th><div class="navbar-title-bracket">{</div></th>
-						<th>William <br> &nbsp; Whitehouse </th>	
-						<th><div class="navbar-title-bracket">}</div></th>	
-					</tr>
-				</table>  	
-		</a>
-		
-		<!-- Nav Bar Burger Menu -->	
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">  
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		  
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav mr-auto">
-					
-					<!-- Nav Item - Home -->
-					<li class="nav-item">
-						<a class="nav-link" href="./index.html" id="navbar-hover2" onMouseOver="mouseOver('navbar-hover2', 'Home')" onMouseOut="mouseOut('navbar-hover2', 'Home')">Home</a>
-					</li>
-					
-					<!-- Nav Item - Blog -->
-					<li class="nav-item">
-						<a class="nav-link" href="./blog.html" id="navbar-hover3" onMouseOver="mouseOver('navbar-hover3', 'Blog')" onMouseOut="mouseOut('navbar-hover3', 'Blog')">Blog</a>
-					</li>
-					
-				    <!-- Nav Dropdown - Portfolio -->
-					<li class="nav-item dropdown">
-					  
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onMouseOver="mouseOver('navbarDropdown', 'Portfolio')" onMouseOut="mouseOut('navbarDropdown', 'Portfolio')">Portfolio</a>
-					  
-						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-
-							<!-- Nav Dropdown - College Portfolio -->
-							<a class="dropdown-item" href="./college-portfolio.html" id="navbar-hover4" onMouseOver="mouseOver('navbar-hover4', 'College')" onMouseOut="mouseOut('navbar-hover4', 'College')">College</a>
-						
-							<!-- Nav Dropdown - University Portfolio -->
-							<a class="dropdown-item" href="./uni-portfolio.html" id="navbar-hover5" onMouseOver="mouseOver('navbar-hover5', 'University')" onMouseOut="mouseOut('navbar-hover5', 'University')">University</a>
-						
-							<!-- Nav Dropdown - Personal Projects -->
-							<div class="dropdown-divider"></div>					  
-							<a class="dropdown-item" href="./personal-portfolio.html" id="navbar-hover6" onMouseOver="mouseOver('navbar-hover6', 'Personal Projects')" onMouseOut="mouseOut('navbar-hover6', 'Personal Projects')">Personal Projects</a>					
-						</div>
-					</li>
-				</ul>
-				  
-				  <!-- Search Bar -->
-				<!-- <form class="form-inline my-2 my-lg-0">
-				  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-				  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-				</form>-->
-			  </div>
-			</nav>
-		</header>
+	<header> 
+	<nav class="navbar is-fixed-top is-primary" role="navigation" aria-label="main navigation">
+      <div class="container">
+		  <div class="navbar-brand">
+			  <a class="navbar-brand-hover is-family-monospace" href="/">
+				  <table>
+					  <tbody><tr>
+						  <th><div class="navbar-brand-bracket has-text-white">{</div></th>
+						  <th><div  class="navbar-brand-text has-text-white">William <br> &nbsp; Whitehouse </div></th>	
+						  <th><div class="navbar-brand-bracket has-text-white">}</div></th>	
+					</tr></tbody>
+				  </table>  	
+			  </a>
+			  <a class="navbar-burger" role="button" aria-label="menu" aria-expanded="false" data-target="#navMenu">			  
+				  <span aria-hidden="true"></span>
+				  <span aria-hidden="true"></span>
+				  <span aria-hidden="true"></span>
+			  </a>
+		  </div>
+        <div class="navbar-menu" id="navMenu">
+          <div class="navbar-start"></div>
+          <div class="navbar-end">
+			  <a class="navbar-item" href="/">Home</a>
+			  <a class="navbar-item" href="./blog.html">Blog</a>
+			  <a class="navbar-item" href="./portfolio.html">Portfolio</a>
+           <!-- <div class="navbar-item"><a class="button" href="/contact">Say Hello</a></div>-->
+          </div>
+        </div>
+      </div>
+    </nav>
+	</header>
 </body>
 </html>
+
+<style>
+
+	
+</style>
