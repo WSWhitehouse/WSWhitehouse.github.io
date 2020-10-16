@@ -48,12 +48,6 @@
   padding-top: 0px;
   padding-bottom: 0px;
 }
-.card {
-  transition: 300ms ease;
-}
-.card:hover, .card:focus {
-  transform: scale(105%);
-}
 .object-hover{
 	transition: 300ms ease;
 }
