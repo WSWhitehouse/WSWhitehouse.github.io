@@ -48,8 +48,8 @@
   padding-top: 0px;
   padding-bottom: 0px;
 }
-.object-hover{
-	transition: 300ms ease;
+.object-hover {
+  transition: 300ms ease;
 }
 .object-hover:hover, .object-hover:focus {
   transform: scale(105%);
