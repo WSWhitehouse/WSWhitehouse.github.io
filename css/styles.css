@@ -1,56 +1,68 @@
 /* --------------------- Styles.css --------------------- */
 /* CSS file with changes & additions to the Bulma library */
 .main-content {
-  margin-top: 125px;
+    margin-top: 125px;
 }
+
 .navbar-brand-hover {
-  margin: 5px;
-  transition: 300ms ease;
+    margin: 5px;
+    transition: 300ms ease;
 }
+
 .navbar-brand-hover:hover, .navbar-brand-hover:focus {
-  text-decoration: none;
-  transform: scale(105%);
+    text-decoration: none;
+    transform: scale(105%);
 }
+
 .navbar-brand-text {
-  margin-top: 13px;
+    margin-top: 13px;
 }
+
 .navbar-brand-table {
-  border-collapse: collapse;
+    border-collapse: collapse;
 }
+
 .navbar-brand-bracket {
-  font-size: 500%;
-  font-weight: normal;
-  padding-bottom: 0%;
-  padding-top: 0%;
-  line-height: 85%;
+    font-size: 500%;
+    font-weight: normal;
+    padding-bottom: 0%;
+    padding-top: 0%;
+    line-height: 85%;
 }
+
 .navbar-burger {
-  margin-top: 13px;
-  margin-right: 13px;
-  transition: 300ms ease;
+    margin-top: 13px;
+    margin-right: 13px;
+    transition: 300ms ease;
 }
+
 .navbar-burger:hover, .navbar-burger:focus {
-  transform: scale(105%);
+    transform: scale(105%);
 }
+
 .button {
-  transition: 300ms ease;
+    transition: 300ms ease;
 }
+
 .button:hover, .button:focus {
-  transform: scale(105%);
+    transform: scale(105%);
 }
+
 .social-icons {
-  width: auto;
-  height: auto;
-  max-width: 50px;
-  max-height: 50px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 0px;
-  padding-bottom: 0px;
+    width: auto;
+    height: auto;
+    max-width: 50px;
+    max-height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
+
 .object-hover {
-  transition: 300ms ease;
+    transition: 300ms ease;
 }
+
 .object-hover:hover, .object-hover:focus {
-  transform: scale(105%);
+    transform: scale(105%);
 }
