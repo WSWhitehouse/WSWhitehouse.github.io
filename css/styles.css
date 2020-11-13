@@ -12,7 +12,7 @@
 .navbar-brand-hover:hover, .navbar-brand-hover:focus {
     text-decoration: none;
     -webkit-transform: scale(1.05, 1.05);
-    -moz-transform: scale(105);
+    -moz-transform: scale(1.05, 1.05);
 }
 
 .navbar-brand-text {
@@ -40,7 +40,7 @@
 
 .navbar-burger:hover, .navbar-burger:focus {
     -webkit-transform: scale(1.05, 1.05);
-    -moz-transform: scale(105);
+    -moz-transform: scale(1.05, 1.05);
 }
 
 .navbar-item .icon:only-child,
@@ -54,7 +54,7 @@
 
 .button:hover, .button:focus {
     -webkit-transform: scale(1.05, 1.05);
-    -moz-transform: scale(105);
+    -moz-transform: scale(1.05, 1.05);
 }
 
 .social-icons {
@@ -71,7 +71,7 @@
 
 .object-hover:hover, .object-hover:focus {
     -webkit-transform: scale(1.05, 1.05);
-    -moz-transform: scale(105);
+    -moz-transform: scale(1.05, 1.05);
 }
 
 @font-face {
