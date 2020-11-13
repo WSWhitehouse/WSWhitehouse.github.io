@@ -11,11 +11,13 @@
 
 .navbar-brand-hover:hover, .navbar-brand-hover:focus {
     text-decoration: none;
-    transform: scale(105%);
+    -webkit-transform: scale(1.05, 1.05);
+    -moz-transform: scale(105);
 }
 
 .navbar-brand-text {
     margin-top: 13px;
+    font-weight: normal;
 }
 
 .navbar-brand-table {
@@ -25,8 +27,8 @@
 .navbar-brand-bracket {
     font-size: 500%;
     font-weight: normal;
-    padding-bottom: 0%;
-    padding-top: 0%;
+    padding-bottom: 10px;
+    padding-top: 0;
     line-height: 85%;
 }
 
@@ -37,15 +39,22 @@
 }
 
 .navbar-burger:hover, .navbar-burger:focus {
-    transform: scale(105%);
+    -webkit-transform: scale(1.05, 1.05);
+    -moz-transform: scale(105);
 }
+
+.navbar-item .icon:only-child,
+.navbar-link .icon:only-child {
+    margin-left: 0.25rem;
+    margin-right: 0.25rem; }
 
 .button {
     transition: 300ms ease;
 }
 
 .button:hover, .button:focus {
-    transform: scale(105%);
+    -webkit-transform: scale(1.05, 1.05);
+    -moz-transform: scale(105);
 }
 
 .social-icons {
@@ -53,10 +62,7 @@
     height: auto;
     max-width: 50px;
     max-height: 50px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding: 0 10px;
 }
 
 .object-hover {
@@ -64,5 +70,15 @@
 }
 
 .object-hover:hover, .object-hover:focus {
-    transform: scale(105%);
+    -webkit-transform: scale(1.05, 1.05);
+    -moz-transform: scale(105);
+}
+
+@font-face {
+    font-family: consolas;
+    src: url("fonts/Consolas.ttf");
+}
+
+.is-family-monospace {
+    font-family: consolas, monospace;
 }
