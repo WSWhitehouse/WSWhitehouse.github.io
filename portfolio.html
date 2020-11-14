@@ -10,7 +10,11 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CBRZ1EQDGR"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'G-CBRZ1EQDGR');
@@ -48,60 +52,116 @@
     <section>
         <div class="container is-centered">
             <div class="card">
-                <div class="columns card-content">
-                    <div class="column is-two-thirds">
-                        <div class="title">Pong in C++</div>
-                        <a href="https://wswhitehouse.itch.io/pong-cpp?secret=acoDse2YTQqV4Hw1x4TzLfwbA" target="_blank"
-                           rel="noopener noreferrer">
-                            <button class="button is-primary is-family-monospace" style="width: auto; height: auto;">
-                                Download (itch.io)
-                            </button>
-                        </a>
-                        <div><br>
-                            As part of my university course at UWE, I created a Pong clone in C++. It was created in a
-                            bespoke OpenGL engine called <a href="https://huxyuk.github.io/AwesomeSauceGE/index.html">ASGE</a>.
-                            It is specially designed and targeted for students as it has bare-bones functionality and
-                            provides minimum hand-holding. <br>
-                            This small Pong clone was an important stepping stone, as it allowed me to get familiar with
-                            some new (at the time) programming concepts, such as <strong>pointers</strong>, <strong>memory
-                                management</strong> and <strong>classes</strong>. The game made use of <strong>vectors
-                                and points</strong> to store the location of objects, and used <strong>vector
-                                math</strong> to move the ball and paddles on-screen. Each object had an <strong>Axis-Aligned
-                                Bounding Box (AABB)</strong> which means I used <strong>AABB-AABB collision
-                                detection</strong> to detect collisions between the ball and paddles.
+                <div class="card-content">
+                    <div class="title">Pong In C++</div>
+                    <br>
+                    <div class="columns">
+                        <div class="column has-text-centered is-align-content-center is-align-items-center is-align-self-center is-justify-content-center">
+                            <img class="" src="images/200x200.gif" alt=""
+                                 style="width: auto; height: auto; max-height:500px;">
+                        </div>
+                        <div class="column has-text-centered is-align-content-center is-align-items-center is-align-self-center is-justify-content-center">
+                            <img class="" src="images/200x200.gif" alt=""
+                                 style="width: auto; height: auto; max-height:500px;">
+                        </div>
+                        <div class="column has-text-centered is-align-content-center is-align-items-center is-align-self-center is-justify-content-center">
+                            <img class="" src="images/200x200.gif" alt=""
+                                 style="width: auto; height: auto; max-height:500px;">
+                        </div>
+                        <div class="column has-text-centered is-align-content-center is-align-items-center is-align-self-center is-justify-content-center">
+                            <img class="" src="images/200x200.gif" alt=""
+                                 style="width: auto; height: auto; max-height:500px;">
                         </div>
                     </div>
-                    <div class="column has-text-centered is-align-content-center is-align-items-center is-align-self-center is-justify-content-center">
-                        <img class="object-hover" src="images/200x200.gif" alt="" data-target="pong-modal"
-                             data-toggle="modal"></div>
+                    <div class="columns has-text-centered is-align-content-center is-align-self-center is-justify-content-center">
+                        <div class="column"></div>
+                        <div class="column">
+                            <a href="https://wswhitehouse.itch.io/pong-cpp?secret=acoDse2YTQqV4Hw1x4TzLfwbA"
+                               target="_blank" rel="noopener noreferrer">
+                                <button class="button is-primary is-family-monospace"
+                                        style="width: auto; height: auto;">
+                                    Download
+                                </button>
+                            </a>
+                        </div>
+                        <div class="column">
+                            <button class="button is-primary is-family-monospace"
+                                    style="width: auto; height: auto;" data-target="pong-modal"
+                                    data-toggle="modal">
+                                More Images & Videos
+                            </button>
+                        </div>
+                        <div class="column"></div>
+                    </div>
+                    <div><br>
+                        As part of my university course at UWE, I created a Pong clone in C++. It was created in a
+                        bespoke OpenGL engine called <a href="https://huxyuk.github.io/AwesomeSauceGE/index.html">ASGE</a>.
+                        It is specially designed and targeted for students as it has bare-bones functionality and
+                        provides minimum hand-holding. <br>
+                        This small Pong clone was an important stepping stone, as it allowed me to get familiar with
+                        some new (at the time) programming concepts, such as <strong>pointers</strong>, <strong>memory
+                            management</strong> and <strong>classes</strong>. The game made use of <strong>vectors
+                            and points</strong> to store the location of objects, and used <strong>vector
+                            math</strong> to move the ball and paddles on-screen. Each object had an <strong>Axis-Aligned
+                            Bounding Box (AABB)</strong> which means I used <strong>AABB-AABB collision
+                            detection</strong> to detect collisions between the ball and paddles.
+                    </div>
                 </div>
             </div>
             <br>
-            <div class="card">
-                <div class="columns card-content">
-                    <div class="column is-two-thirds">
-                        <div class="title">Angry Birds in C++</div>
-                        <a href="https://wswhitehouse.itch.io/angry-birds-cpp?secret=pLE2IAhrLHxR70IMBpmAGELaYQM"
-                           target="_blank" rel="noopener noreferrer">
-                            <button class="button is-primary is-family-monospace" style="width: auto; height: auto;">
-                                Download (itch.io)
-                            </button>
-                        </a>
-                        <div><br>
-                            The Angry Birds game was my final first year submission to one of my university modules. It
-                            was developed in the <a href="https://huxyuk.github.io/AwesomeSauceGE/index.html">ASGE
-                                engine</a>, and I followed a <strong>component-based design pattern</strong>. This
-                            design pattern splits each individual function or game logic into its own component class.
-                            These components can then be added, removed and reused on any object. Using this design
-                            pattern allows me to display an understanding of <strong>virtual/abstract classes</strong>,
-                            <strong>class inheritance</strong>, <strong>function overriding</strong> and how to
-                            structure
-                            my code cleanly.
+             <div class="card">
+                <div class="card-content">
+                    <div class="title">Angry Birds In C++</div>
+
+                    <br>
+                    <div class="columns">
+                        <div class="column has-text-centered is-align-content-center is-align-items-center is-align-self-center is-justify-content-center">
+                            <img class="" src="images/200x200.gif" alt=""
+                                 style="width: auto; height: auto; max-height:500px;">
+                        </div>
+                        <div class="column has-text-centered is-align-content-center is-align-items-center is-align-self-center is-justify-content-center">
+                            <img class="" src="images/200x200.gif" alt=""
+                                 style="width: auto; height: auto; max-height:500px;">
+                        </div>
+                        <div class="column has-text-centered is-align-content-center is-align-items-center is-align-self-center is-justify-content-center">
+                            <img class="" src="images/200x200.gif" alt=""
+                                 style="width: auto; height: auto; max-height:500px;">
+                        </div>
+                        <div class="column has-text-centered is-align-content-center is-align-items-center is-align-self-center is-justify-content-center">
+                            <img class="" src="images/200x200.gif" alt=""
+                                 style="width: auto; height: auto; max-height:500px;">
                         </div>
                     </div>
-                    <div class="column has-text-centered is-align-content-center is-align-items-center is-align-self-center is-justify-content-center">
-                        <img class="object-hover" src="images/200x200.gif" alt="" data-target="angry-birds-modal"
-                             data-toggle="modal"></div>
+                    <div class="columns has-text-centered is-align-content-center is-align-self-center is-justify-content-center">
+                        <div class="column"></div>
+                        <div class="column">
+                            <a href="https://wswhitehouse.itch.io/angry-birds-cpp?secret=pLE2IAhrLHxR70IMBpmAGELaYQM"
+                               target="_blank" rel="noopener noreferrer">
+                                <button class="button is-primary is-family-monospace"
+                                        style="width: auto; height: auto;">
+                                    Download
+                                </button>
+                            </a>
+                        </div>
+                        <div class="column">
+                            <button class="button is-primary is-family-monospace"
+                                    style="width: auto; height: auto;" data-target="angry-birds-modal"
+                                    data-toggle="modal">
+                                More Images & Videos
+                            </button>
+                        </div>
+                        <div class="column"></div>
+                    </div>
+                    <div><br>
+                        The Angry Birds game was my final first year submission to one of my university modules. It
+                        was developed in the <a href="https://huxyuk.github.io/AwesomeSauceGE/index.html">ASGE
+                            engine</a>, and I followed a <strong>component-based design pattern</strong>. This
+                        design pattern splits each individual function or game logic into its own component class.
+                        These components can then be added, removed and reused on any object. Using this design
+                        pattern allows me to display an understanding of <strong>virtual/abstract classes</strong>,
+                        <strong>class inheritance</strong>, <strong>function overriding</strong> and how to
+                        structure my code cleanly.
+                    </div>
                 </div>
             </div>
             <br>
@@ -180,11 +240,51 @@
         <div class="modal-background"></div>
         <div class="modal-card">
             <header class="modal-card-head">
-                <p class="modal-card-title">Pong in C++</p>
-                <button class="delete" aria-label="close" data-dismiss="modal"></button>
+                <button class="delete" aria-label="close" data-dismiss="modal"></button>&emsp;
+                <p class="modal-card-title">Pong In C++</p>
             </header>
-            <section class="modal-card-body"><i class="fas fa-wrench object-hover"
-                                                style="width: 100px;height: 100px;"></i></section>
+            <section class="modal-card-body">
+                <div class="has-text-centered is-align-content-center is-align-items-center is-align-self-center is-justify-content-center">
+                    <img class="" src="images/200x200.gif" alt=""
+                         style="width: auto; height: auto; max-height:1080px;">
+                    <!--<div class="wrap-element has-text-centered is-align-content-center is-align-items-center is-align-self-center is-justify-content-center"
+                         style="width: auto; height: auto; max-height:1080px;">
+                        <iframe class="wrapped-iframe" src="https://www.youtube-nocookie.com/embed/3K9ZShQixwE"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                    </div>
+                    <br>
+                    <div class="has-text-centered is-align-content-center is-align-items-center is-align-self-center is-justify-content-center">
+                        <img class="" src="images/portfolio/3d-enviro-maya-unity/05.jpg" alt=""
+                             style="width: auto; height: auto; max-height:1080px;">
+                    </div>
+                    <br>
+                    <div class="columns">
+                        <div class="column has-text-centered is-align-content-center is-align-items-center is-align-self-center is-justify-content-center">
+                            <img class="" src="images/portfolio/3d-enviro-maya-unity/02.jpg" alt=""
+                                 style="width: auto; height: auto; max-height:500px;">
+                        </div>
+                        <div class="column has-text-centered is-align-content-center is-align-items-center is-align-self-center is-justify-content-center">
+                            <img class="" src="images/portfolio/3d-enviro-maya-unity/03.jpg" alt=""
+                                 style="width: auto; height: auto; max-height:500px;">
+                        </div>
+                    </div>
+                    <div class="column has-text-centered is-align-content-center is-align-items-center is-align-self-center is-justify-content-center">
+                        <img class="" src="images/portfolio/3d-enviro-maya-unity/02.gif" alt=""
+                             style="width: auto; height: auto; max-height:1080px;">
+                    </div>
+                    <br>
+                    <div class="has-text-centered is-align-content-center is-align-items-center is-align-self-center is-justify-content-center">
+                        <img class="" src="images/portfolio/3d-enviro-maya-unity/06.jpg" alt=""
+                             style="width: auto; height: auto; max-height:1080px;">
+                    </div>
+                    <br>
+                    <div class="has-text-centered is-align-content-center is-align-items-center is-align-self-center is-justify-content-center">
+                        <img class="" src="images/portfolio/3d-enviro-maya-unity/07.jpg" alt=""
+                             style="width: auto; height: auto; max-height:1080px;">-->
+                </div>
+            </section>
         </div>
     </div>
 
@@ -192,11 +292,51 @@
         <div class="modal-background"></div>
         <div class="modal-card">
             <header class="modal-card-head">
-                <p class="modal-card-title">Angry Birds in C++</p>
-                <button class="delete" aria-label="close" data-dismiss="modal"></button>
+                <button class="delete" aria-label="close" data-dismiss="modal"></button>&emsp;
+                <p class="modal-card-title">Angry Birds In C++</p>
             </header>
-            <section class="modal-card-body"><i class="fas fa-wrench object-hover"
-                                                style="width: 100px;height: 100px;"></i></section>
+            <section class="modal-card-body">
+                <div class="has-text-centered is-align-content-center is-align-items-center is-align-self-center is-justify-content-center">
+                    <img class="" src="images/200x200.gif" alt=""
+                         style="width: auto; height: auto; max-height:1080px;">
+                <!--<div class="wrap-element has-text-centered is-align-content-center is-align-items-center is-align-self-center is-justify-content-center"
+                     style="width: auto; height: auto; max-height:1080px;">
+                    <iframe class="wrapped-iframe" src="https://www.youtube-nocookie.com/embed/3K9ZShQixwE"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                </div>
+                <br>
+                <div class="has-text-centered is-align-content-center is-align-items-center is-align-self-center is-justify-content-center">
+                    <img class="" src="images/portfolio/3d-enviro-maya-unity/05.jpg" alt=""
+                         style="width: auto; height: auto; max-height:1080px;">
+                </div>
+                <br>
+                <div class="columns">
+                    <div class="column has-text-centered is-align-content-center is-align-items-center is-align-self-center is-justify-content-center">
+                        <img class="" src="images/portfolio/3d-enviro-maya-unity/02.jpg" alt=""
+                             style="width: auto; height: auto; max-height:500px;">
+                    </div>
+                    <div class="column has-text-centered is-align-content-center is-align-items-center is-align-self-center is-justify-content-center">
+                        <img class="" src="images/portfolio/3d-enviro-maya-unity/03.jpg" alt=""
+                             style="width: auto; height: auto; max-height:500px;">
+                    </div>
+                </div>
+                <div class="column has-text-centered is-align-content-center is-align-items-center is-align-self-center is-justify-content-center">
+                    <img class="" src="images/portfolio/3d-enviro-maya-unity/02.gif" alt=""
+                         style="width: auto; height: auto; max-height:1080px;">
+                </div>
+                <br>
+                <div class="has-text-centered is-align-content-center is-align-items-center is-align-self-center is-justify-content-center">
+                    <img class="" src="images/portfolio/3d-enviro-maya-unity/06.jpg" alt=""
+                         style="width: auto; height: auto; max-height:1080px;">
+                </div>
+                <br>
+                <div class="has-text-centered is-align-content-center is-align-items-center is-align-self-center is-justify-content-center">
+                    <img class="" src="images/portfolio/3d-enviro-maya-unity/07.jpg" alt=""
+                         style="width: auto; height: auto; max-height:1080px;">-->
+                </div>
+            </section>
         </div>
     </div>
 
@@ -208,13 +348,13 @@
                 <p class="modal-card-title">Creating a 3D Environment in Maya &amp; Unity</p>
             </header>
             <section class="modal-card-body">
-                    <div class="wrap-element has-text-centered is-align-content-center is-align-items-center is-align-self-center is-justify-content-center"
-                         style="width: auto; height: auto; max-height:1080px;">
-                        <iframe class="wrapped-iframe" src="https://www.youtube-nocookie.com/embed/3K9ZShQixwE"
+                <div class="wrap-element has-text-centered is-align-content-center is-align-items-center is-align-self-center is-justify-content-center"
+                     style="width: auto; height: auto; max-height:1080px;">
+                    <iframe class="wrapped-iframe" src="https://www.youtube-nocookie.com/embed/3K9ZShQixwE"
                             frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe>
-                    </div>
+                </div>
                 <br>
                 <div class="has-text-centered is-align-content-center is-align-items-center is-align-self-center is-justify-content-center">
                     <img class="" src="images/portfolio/3d-enviro-maya-unity/05.jpg" alt=""
