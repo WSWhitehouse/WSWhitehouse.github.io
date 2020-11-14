@@ -77,7 +77,7 @@
 
 @font-face {
     font-family: consolas;
-    src: url("fonts/Consolas.ttf");
+    src: url("assets/fonts/Consolas.ttf");
 }
 
 .is-family-monospace {

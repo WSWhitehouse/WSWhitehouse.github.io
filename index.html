@@ -10,18 +10,22 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CBRZ1EQDGR"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'G-CBRZ1EQDGR');
     </script>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="css/bulma.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="assets/css/bulma.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
 
     <!-- Scripts -->
-    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
     <script src="https://kit.fontawesome.com/b1f18ca109.js" crossorigin="anonymous"></script>
 </head>
 
@@ -42,7 +46,7 @@
                 <!-- Column 1 - Image -->
                 <div class="column">
                     <div class="has-text-centered">
-                        <img src="images/400x400.gif" alt="Me!">
+                        <img src="assets/images/400x400.gif" alt="Me!">
                     </div>
                 </div>
 
@@ -73,13 +77,25 @@
                     </p>
                     <hr>
 
-                    <!-- View Portfolio Button -->
-                    <div class="has-text-centered">
+                    <!-- Buttons -->
+                    <div class="columns has-text-centered">
+                        <div class="column"></div>
+                        <div class="column">
+                        <a href="assets/WilliamWhitehouseCV-2020.pdf" target="_blank"
+                           rel="noopener noreferrer">
+                            <button class="button is-primary is-family-monospace">
+                                Download CV
+                            </button>
+                        </a>
+                        </div>
+                        <div class="column">
                         <a href="./portfolio.html">
                             <button class="button is-primary is-family-monospace">
                                 View Portfolio
                             </button>
                         </a>
+                        </div>
+                        <div class="column"></div>
                     </div>
                 </div>
             </div>
@@ -167,11 +183,14 @@
                                             <strong>Programming Languages</strong>
                                             <hr>
                                         </div>
-                                        <div class="is-family-monospace">
-                                            C# <br>
-                                            C++ <br>
-                                            HTML <br>
-                                            CSS <br>
+                                        <div class="is-family-monospace has-text-centered is-align-content-center
+                                        is-align-items-center is-align-self-center is-justify-content-center">
+                                            <div>
+                                                C# <br>
+                                                C++ <br>
+                                                HTML <br>
+                                                CSS <br>
+                                            </div>
                                         </div>
                                     </div>
 
@@ -189,6 +208,8 @@
                                         <div class="columns is-gapless is-family-monospace">
                                             <div class="column">
                                                 Atom<br>
+                                                Affinity Photo<br>
+                                                Dreamweaver<br>
                                                 Bitbucket<br>
                                                 Git<br>
                                                 GitHub<br>
@@ -197,7 +218,9 @@
                                             <div class="column">
                                                 JetBrains CLion<br>
                                                 JetBrains Rider<br>
+                                                Microsoft Office<br>
                                                 Unity<br>
+                                                Unreal Engine<br>
                                                 Visual Studio<br>
                                                 VS Code<br>
                                             </div>
