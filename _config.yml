@@ -38,7 +38,7 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: William Whitehouse
-  email: williamswhitehouse@gmail.com             # change to your email address
+  email: williamswhitehouse@gmail.com
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/WS_Whitehouse      # change to your twitter homepage
