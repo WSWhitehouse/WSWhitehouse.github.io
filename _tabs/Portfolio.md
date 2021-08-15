@@ -1,9 +1,7 @@
 ---
 title: Portfolio
 icon: fas fa-info
-order: 5
+order: 1
 ---
-
-# My work.
 
 **TODO**
