@@ -18,7 +18,7 @@ tags: [TAG] # TAG names should always be lowercase, number of elements can range
 ---
 ```
 
-For more details check out the [Chirpy Wiki Page](https://github.com/cotes2020/jekyll-theme-chirpy/wiki/Writing-a-New-Post).
+For more details check out the [Chirpy wiki page on writing a new post](https://github.com/cotes2020/jekyll-theme-chirpy/wiki/Writing-a-New-Post).
 
 ## Adding A New Tab
 The website contains multiple tabs that can be seen in the left panel. These are controlled by markdown files located in the `_tabs/` folder in the root of this repository. The tabs `categories`, `tags`, and `archives` are special tabs and should not be removed or have any text (apart from the Front Matter) written in them.
