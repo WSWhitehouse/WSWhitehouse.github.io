@@ -38,6 +38,7 @@ Additional content can be added to the tab page by adding it below the front mat
 
 ## Useful Links
 - Jekyll - [https://jekyllrb.com/](https://jekyllrb.com/)
+- Jekyll Font Awesome Icons - [https://aksakalli.github.io/jekyll-doc-theme/docs/font-awesome/](https://aksakalli.github.io/jekyll-doc-theme/docs/font-awesome/)
 - Chirpy Theme - [https://github.com/cotes2020/jekyll-theme-chirpy](https://github.com/cotes2020/jekyll-theme-chirpy)
 - Chirpy Wiki - [https://github.com/cotes2020/jekyll-theme-chirpy/wiki](https://github.com/cotes2020/jekyll-theme-chirpy/wiki)
 - Chirpy Starter Repo - [https://github.com/cotes2020/chirpy-starter](https://github.com/cotes2020/chirpy-starter)
