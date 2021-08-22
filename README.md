@@ -29,7 +29,7 @@ You need to fill the [Front Matter](https://jekyllrb.com/docs/front-matter/) as 
 ```
 ---
 title: TITLE
-icon: fas fa-info
+icon: fas ICON # Check out `Jekyll Font Awesome Icons` in the Useful Links section below
 order: ORDER # Order in left panel
 ---
 ```
